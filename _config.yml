@@ -1,0 +1,24 @@
+title: alwaysinbrighton
+description: >- # this means to ignore newlines until "baseurl:"
+  the independant city guide to brighton and hove
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+# theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+permalink: /:categories/:title/
+
+collections_dir: collections
+
+collections:
+  places:
+    output: true
+  guides:
+    output: true
+
+    
